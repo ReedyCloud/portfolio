@@ -19,6 +19,18 @@ code {
     monospace;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-1: #021e25;
+  --bg-2: #002b36;
+  --bg-3: #073642;
+  --font-1: #4aae9b;
+}
+
 body::-webkit-scrollbar {
   width: 0.8rem;
 }
@@ -29,9 +41,4 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: #b58900;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
 }
